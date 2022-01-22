@@ -1,5 +1,5 @@
 # PSI-CA-Framework
-This is the Java implementation of our paper: Efficient Private Set Intersection Cardinality inthe Reverse Unbalanced Setting Utilizing Hash-Prefix Filter, we implement the unbalanced PSI-CA of Lv et al. and our proposed reverse unbalanced PSI-CA in the new scenario.
+This is the Java implementation of our paper: **Efficient Private Set Intersection Cardinality inthe Reverse Unbalanced Setting Utilizing Hash-Prefix Filter**, we implement the unbalanced PSI-CA of Lv et al.[1] and our proposed reverse unbalanced PSI-CA in the new scenario.
 
 Pamams.java controls the protocol setup and related parameters:
 ## Protocol type includes:
@@ -22,3 +22,5 @@ THREADS
 prefix_len
 ## Notice
 pirFilter and preFilter can't both be true, preFilter = true exists privacy leakage, which corresponds to the Pre-Filter Reverse Unbalanced PSI-CA protocol in our paper. On the other hand, pirFilter = true corresponds to the Pre-filter Reverse Unbalanced Protocol with Leakage Resistance.
+## Reference
+[1] Lv S, Ye J, Yin S, et al. Unbalanced private set intersection cardinality protocol with low communication cost[J]. Future Generation Computer Systems, 2020, 102: 1054-1061.
